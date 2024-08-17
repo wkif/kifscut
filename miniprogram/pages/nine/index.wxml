@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<navigation-bar
+  title="九宫格"
+  back="{{true}}"
+  color="black"
+  background="#FFF"
+></navigation-bar>
+<scroll-view
+  class="scrollarea"
+  scroll-y
+  type="list"
+>
+  <view class="container">
+    9
+  </view>
+</scroll-view>
+
